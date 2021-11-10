@@ -9,6 +9,11 @@ body {
 ul li {
   list-style-type: none;
 }
+h1 {
+  font-size: 42px;
+  color: #fff;
+}
+
 /*Reuse
 */
 .row {
@@ -19,6 +24,7 @@ ul li {
 header {
   background: #87509c;
   height: 85vh;
+  position: relative;
 }
 .logo {
   height: 35px;
@@ -33,12 +39,35 @@ header {
 }
 .main-nav li {
   display: inline-block;
-
-  margin-left: 30px;
+  margin-left: 10px;
+}
+.main-nav li:first-child {
+  margin-left: 0;
 }
 .main-nav li a:link,
 .main-nav li a:visited {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
+  background: rgba(100, 58, 121, 0);
+  padding: 6px 16px;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 16px;
+  transition: 0.3s;
+}
+.main-nav li:hover a:link,
+.main-nav li:hover a:visited {
+  background: rgba(100, 58, 121, 1);
+}
+.active {
+  background: rgba(100, 58, 121, 1);
+}
+
+.hero-text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
