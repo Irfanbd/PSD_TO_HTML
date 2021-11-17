@@ -3,21 +3,25 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  font-size: 62.5%;
+}
 body {
   font-family: "Titillium Web", sans-serif;
+  text-rendering: optimizeLegibility;
 }
 ul li {
   list-style-type: none;
 }
 h1 {
-  font-size: 42px;
+  font-size: 4.2rem;
   color: #fff;
 }
 
-/*Reuse
+/*Reuseable
 */
 .row {
-  max-width: 1140px;
+  max-width: 114rem;
   margin: 0 auto;
 }
 
@@ -25,14 +29,15 @@ h1 {
 .btn:visited,
 .btn {
   background: #333;
-  border-bottom: 3px solid #000;
+  border-bottom: 0.3rem solid #000;
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
-  padding: 15px 60px;
-  border-radius: 3px;
+  padding: 1.5rem 6rem;
+  border-radius: 0.3rem;
   display: inline-block;
-  margin-top: 45px;
+  margin-top: 4.5rem;
+  font-size: 1.6rem;
 }
 /*header*/
 header {
@@ -45,19 +50,19 @@ header {
   position: relative;
 }
 .logo {
-  height: 35px;
+  height: 3.5rem;
   width: auto;
-  margin-top: 35px;
+  margin-top: 3.5rem;
   float: left;
 }
 /*main nav*/
 .main-nav {
   float: right;
-  margin-top: 40px;
+  margin-top: 4rem;
 }
 .main-nav li {
   display: inline-block;
-  margin-left: 10px;
+  margin-left: 1rem;
 }
 .main-nav li:first-child {
   margin-left: 0;
@@ -68,15 +73,15 @@ header {
   text-decoration: none;
   text-transform: uppercase;
   background: rgba(100, 58, 121, 0);
-  padding: 6px 16px;
-  border-radius: 5px;
+  padding: 0.6rem 1.6rem;
+  border-radius: 0.5rem;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1.6rem;
   transition: 0.3s;
 }
 .active {
   background: rgba(100, 58, 121, 0);
-  border-radius: 3px;
+  border-radius: 0.3rem;
 }
 .main-nav li:hover a:link,
 .main-nav li:hover a:visited {
