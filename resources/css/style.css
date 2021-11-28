@@ -171,7 +171,7 @@ header {
     url(img/teamwork-3213924_1920.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center top;
 }
 .services-section h2::after {
   background: #14a58c;
@@ -180,4 +180,8 @@ header {
   height: 12rem;
   margin-top: 4.5em;
   margin-bottom: 3.5rem;
+}
+/*Team Section*/
+.team-section {
+  background: #e7f1f8;
 }
